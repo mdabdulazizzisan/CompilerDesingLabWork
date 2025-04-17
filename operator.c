@@ -3,5 +3,10 @@
 
 const char OPERATORS[] = {'+', '-', '*', '/', '%', '=', '<', '>', '!', '&', '|', '^', '~', '?', ':', '[', ']', '(', ')', '{', '}', ',', ';', '.', '#'};
 int isOperator(char ch) {
-
+    for (int i = 0; i < sizeof(OPERATORS); i++) {
+        if (OPERATORS[i] == ch) {
+            return 1;
+        }
+    }
+    return 0;
 }
