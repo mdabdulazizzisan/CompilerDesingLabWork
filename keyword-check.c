@@ -1,6 +1,6 @@
 #include <string.h>
 
-const char keywords[][] = {
+const char keywords[][10] = {
     "auto", "break", "case", "char", "const", "continue", "default", "do",
     "double", "else", "enum", "extern", "float", "for", "goto", "if",
     "int", "long", "register", "return", "short", "signed", "sizeof",

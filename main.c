@@ -1,31 +1,14 @@
 #include <stdio.h>
-#include "operator-check.c"
+#include "keyword-check.c"
 
 int main(void) {
-    // Test the isOperator function
-    const char testChar;
-    printf("Enter a character: ");
-    scanf("%c", &testChar);
-    if (isOperator(testChar)) {
-        printf("%c is an operator.\n", testChar);
+    char input[100];
+    printf("Enter a string: ");
+    scanf("%s", input);
+    if (isKeyword(input)) {
+        printf("%s is a keyword.\n", input);
     } else {
-        printf("%c is not an operator.\n", testChar);
+        printf("%s is not a keyword.\n", input);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
