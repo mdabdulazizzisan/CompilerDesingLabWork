@@ -1,0 +1,3 @@
+C:/Users/binab/CLionProjects/CompilerDesignLab/cmake-build-debug/CMakeFiles/CompilerDesignLab.dir
+C:/Users/binab/CLionProjects/CompilerDesignLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/binab/CLionProjects/CompilerDesignLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
