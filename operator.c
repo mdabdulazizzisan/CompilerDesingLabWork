@@ -2,7 +2,7 @@
 #include <String.h>
 
 const char OPERATORS[] = {'+', '-', '*', '/', '%', '=', '<', '>', '!', '&', '|', '^', '~', '?', ':', '[', ']', '(', ')', '{', '}', ',', ';', '.', '#'};
-int isOperator(char ch) {
+int isOperator(const char ch) {
     for (int i = 0; i < sizeof(OPERATORS); i++) {
         if (OPERATORS[i] == ch) {
             return 1;
