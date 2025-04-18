@@ -1,3 +1,6 @@
+#ifndef NUMBER_CHECK_H
+#define NUMBER_CHECK_H
+
 #include <string.h>
 
 int isNumber(const char *str) {
@@ -8,3 +11,5 @@ int isNumber(const char *str) {
     }
     return 1; // Is a number
 }
+
+#endif // NUMBER_CHECK_H

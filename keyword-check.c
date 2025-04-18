@@ -1,3 +1,6 @@
+#ifndef KEYWORD_CHECK_H
+#define KEYWORD_CHECK_H
+
 #include <string.h>
 
 const char keywords[][10] = {
@@ -7,6 +10,7 @@ const char keywords[][10] = {
     "static", "struct", "switch", "typedef", "union", "unsigned",
     "void", "volatile", "while"
 };
+
 int isKeyword(const char *str) {
     for (int i = 0; i < 32; i++) {
         if (strcmp(str, keywords[i]) == 0) {
@@ -15,3 +19,5 @@ int isKeyword(const char *str) {
     }
     return 0;
 }
+
+#endif // KEYWORD_CHECK_H

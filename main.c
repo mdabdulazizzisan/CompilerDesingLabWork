@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include "keyword-check.c"    // Include this first to avoid circular dependency
 #include "identifier-check.c"
-#include "keyword-check.c"
 #include "number-check.c"
 #include "operator-check.c"
 
