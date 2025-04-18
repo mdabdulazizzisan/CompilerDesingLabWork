@@ -12,9 +12,9 @@ int isIdentifier(const char *str) {
     for (int i = 1; str[i] != '\0'; i++) {
         if (!(str[i] == '_' || (str[i] >= 'a' && str[i] <= 'z') ||
               (str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= '0' && str[i] <= '9'))) {
-            return 1; // Not a valid identifier //contains invalid character
+            return 0; // Not a valid identifier //contains invalid character
         }
     }
 
-    return 2; // Valid identifier
+    return 1; // Valid identifier
 }
